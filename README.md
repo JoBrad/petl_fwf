@@ -4,7 +4,7 @@ This package contains two additional methods which add the ability to read fixed
 ## fromfwf
 This is the primary method which this package adds. Usage is straightforward, and similar to other methods in the petl library
 
-```py
+```sh
     >>> import fromfwf
     >>> # setup a sample file
     ... text = '  18 5 2\\n2018 5 2\\n20180502'
@@ -39,7 +39,7 @@ This is the primary method which this package adds. Usage is straightforward, an
 
 ## skiplast
 This method will skip the last n rows of a table.
-```py
+```sh
     >>> import petl as etl
     >>> table1 = [['foo', 'bar'],
     ...           ['a', 1],
