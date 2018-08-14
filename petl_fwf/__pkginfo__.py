@@ -16,9 +16,7 @@ changelog = {
     ]
 }
 
-# Set the numversion to the latest version in the changelog
-numversion = tuple(sorted(changelog.keys()).pop().split('.'))
-version = '.'.join([str(num) for num in numversion])
+__version__ = '0.0.2'
 
 license = 'MIT'
 description = 'Additional methods for the petl library that enable reading fixed-width files'
